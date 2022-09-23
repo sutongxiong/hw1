@@ -14,8 +14,8 @@ dime_num = int(input("Number of dimes: "))
 nickel_num = int(input("Number of nickels: "))
 penny_num = int(input("Number of pennies： "))
 
-total_cents = quarter_num*25 +dime_num*10 + nickel_num*5 + penny_num
+total_cents = quarter_num*25 + dime_num * 10 + nickel_num * 5 + penny_num
 dollar_value = total_cents//100
-cent_remain = total_cents%100
-print("The total is",dollar_value, "dollar(s) and",cent_remain,"cent(s)")
+cent_remain = total_cents % 100
+print("The total is",dollar_value, "dollar(s) and", cent_remain, "cent(s)")
 
