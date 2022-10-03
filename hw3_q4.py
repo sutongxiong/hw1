@@ -19,8 +19,7 @@ if value_a == 0:
     if value_b == 0:
         if value_c == 0:
             print("This function has infinite number of solutions.")
-    else:
-        print("This function has no solution.")
+
 
 elif value_a*value_c*4 > value_b**2:
     print("The funtion has no real solution.")
