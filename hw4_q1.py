@@ -11,12 +11,14 @@ number_of_rows = 1
 number_printed = 1
 count =1
 positive_integer = int(input("Please enter a positive integer: "))
+
 print("Executing while-loop...")
 while count <= positive_integer:
     print(number_of_rows)
     number_of_rows +=2
     count +=1
 count = 1
+
 print()
 print("Executing for-loop...")
 for rows in range(1,positive_integer+1):
