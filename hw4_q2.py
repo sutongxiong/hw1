@@ -8,11 +8,11 @@ NYU School of Engineering Policies and Procedures on
 Academic Misconduct.
 """
 
-n = int(input("Enter the number of lines composed of half of the asterisks: "))
-for i in range(1,n+1):
-    print(" "*(i-1) + "*"*(2*n-2*i+1)+" "*(i-1))
-for i in range(n-1):
-    print(" "*(n-i-2) + "*"*(i*2+2*n-5) + " " * (n-i-2))
+user_input = int(input("Enter a positive integer: "))
+for row in range(1,user_input+1):
+    print(" "*(row-1) + "*"*(2*user_input-2*row+1)+" "*(row-1))
+for row in range(user_input-1):
+    print(" "*(user_input-row-2) + "*"*(row*2+2*user_input-5) + " " * (user_input-row-2))
 
 
 
